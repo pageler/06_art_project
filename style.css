@@ -83,6 +83,34 @@ main {
 }
 
 main .img {
-    width: 40%;
+    width: 50%;
     margin: 10px;
 }
+
+/* Arts */
+.section-three {
+    margin-left: 5rem;
+}
+
+.section-three .primary-headings {
+    margin-bottom: 10rem;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three .item h1 {
+    font-size: 2rem;
+    color: rgb(153, 153, 153);
+    margin-left: 1rem;
+  }
+  
+.section-three img {
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+  }
