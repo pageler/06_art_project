@@ -107,10 +107,55 @@ main .img {
     font-size: 2rem;
     color: rgb(153, 153, 153);
     margin-left: 1rem;
-  }
+}
   
 .section-three img {
     width: 500px;
     height: 500px;
     margin: 50px;
-  }
+}
+
+footer {
+    margin-top: 3rem;
+    height: 62vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(144, 195, 200);
+}
+
+footer .logo-container h1 {
+    font-size: 4rem;
+    font-family: "Open+Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+footer .logo-container p {
+    max-width: 400px;
+    font-family: "Open+Sans", sans-serif;
+    line-height: 25px;
+}
+
+footer .about-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .about-company .container {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.about-company .container h1 {
+    margin-bottom: 50px;
+}
+
+.about-company .container p {
+    font-family: "Open+Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
