@@ -39,6 +39,7 @@ li a {
 nav .burger {
     margin-right: 5rem;
     cursor: pointer;
+    transform: rotate(90deg);
 }
 
 nav .burger span {
