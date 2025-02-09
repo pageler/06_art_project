@@ -116,6 +116,8 @@ main .img {
     margin: 50px;
 }
 
+/* Footer */
+
 footer {
     margin-top: 3rem;
     height: 62vh;
@@ -160,3 +162,24 @@ footer .about-company .container {
     margin-bottom: 20px;
 }
 
+/* Media Queries */
+@media screen and (max-width: 740px) {
+    header .main-headings {
+        width: 100%;
+    }
+    header .primary-headings {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .section-three .main-headings {
+        width: 100%;
+    }
+    .section-three .primary-headings {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    
+    .section-three img {
+        margin: 0;
+    }
+}
